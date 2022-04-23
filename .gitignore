@@ -1,0 +1,40 @@
+# See https://help.github.com/ignore-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+
+# devs
+/__dev__/index.js
+.env.local
+.env.development
+.dependencyGraph.json
+/devServer
+
+# testing
+/coverage
+
+# production
+/build
+/latest
+/dist
+/distProduction
+/distStaging
+
+# misc
+.DS_Store
+tags
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.eslintcache
+.tern-port
+.idea/
+.vscode/*
+
+.merlin
+.bsb.lock
+/lib/bs/
+**/*.bs.js
+
+.log
+.tool-versions
